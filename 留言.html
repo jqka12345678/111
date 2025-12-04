@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>留言板</title>
+		<link rel="stylesheet" href="css/留言.css" />
+	</head>
+	<body>
+		<!-- 导航开始 -->
+		<header>
+			<div class="con">
+				<div class="logo"></div>
+				<nav>
+					<ul>
+						<li><a href="index.html" targer="_blank">首页</a></li>
+						<li><a href="草帽海贼团.html" targer="_blank">草帽海贼团</a></li>
+						<li><a href="海上势力.html" targer="_blank">海上势力</a></li>
+						<li><a href="留言.html" targer="_blank">留言板</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- 导航结束 -->
+		<div class="wai">
+			<div class="one">
+				<video  autoplay muted >
+					<source src="video/新四皇.mp4" type="video/mp4"/>
+				</video>
+			</div>
+			<div class="two">
+				<form action="" method="get" class="frm">
+					<h2>联系我们</h2>
+						<p class="redc">请注意：带有*的项必须填写</p>
+						<p><span>姓名：*</span>
+							<input type="text" name="txtName"/> （填写真实姓名）
+						</p>
+						<p><span>手机号：*</span>
+							<input type="tel" name="telphone"/>
+						</p>
+						<p><span>性别：</span>
+							<input type="radio" name="gander" checked class="spe">男
+							<input type="radio" name="gander" checked class="spe">女
+						</p>
+						<p><span>出生日期：</span>
+							<input type="date" name="birthday" value="2004-05-26">
+						</p>
+						<p><span>E-mail：*</span>
+							<input type="email" name="myemail" placeholder="123321128@qq.com">
+						</p>
+						<p><span>职业：</span>
+							<select>
+								<option selected="selected">学生</option>
+								<option>教师</option>
+								<option>程序员</option>
+								<option>演员</option>
+								<option>军人</option>
+								<option>作家</option>
+								<option>科学家</option>
+							</select>
+						</p>
+						<p><span>您的建议：</span>
+							<textarea cols="55" rows="10" class="jianyi"></textarea>
+						</p>
+						<p class="bth">
+							<input type="submit" value="提交">
+							<input type="reset" value="重置">
+						</p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
